@@ -53,6 +53,17 @@ nav ul li a {
 	text-align: center;
 }
 
+.ion-ios-star {
+	font-size: 40px;
+	color: white;
+}
+
+.linea {
+	display: inline-block;
+	width: 100px;
+	border: 2px solid white;
+}
+
 .tituloprincipal {
 	font-size: 50px;
 	font-weight: bold;
@@ -85,6 +96,17 @@ nav ul li a {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 40px;
 	margin-bottom: 15px;
+}
+
+.ion-ios-star.iconp {
+    font-size: 40px;
+	color: #2c3e52;
+}
+
+.linea2 {
+    display: inline-block;
+	width: 100px;
+	border: 2px solid #2c3e52;
 }
 
 .contenedor-img {
