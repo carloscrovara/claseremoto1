@@ -193,6 +193,10 @@ nav ul li a {
 	margin-bottom: 80px;
 }
 
+.container-titulo5 {
+    	margin-bottom: 15px;
+}
+
 .form-contact {
     width: 80%;
     margin: 0 auto;
@@ -278,10 +282,11 @@ nav ul li a {
 .titulo-footer2 {
 	font-family: 'Montserrat', sans-serif;
 	margin-top: 25px;
+	margin-bottom: 10px;
 	padding-bottom: 10px;
 	font-weight: bold;
 	text-align: left;
-	margin-left: 20px;
+	margin-left: 50px;
 }
 
 .text-list {
@@ -290,9 +295,22 @@ nav ul li a {
 	margin-top: 10px;
 }
 
-.footer-li2 {
-   display: inline-block;
-   text-decoration: none;
+.social li {
+	display: inline-block;
+}
+
+.social li span {
+    color: white;
+    font-size: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 6px;
+    box-sizing: border-box;
+    margin: 0 4px;
 }
 
 .text-footer {
@@ -351,6 +369,14 @@ nav ul li a {
     }
 
     .tituloprincipal {
+       font-size: 27px;
+    }
+
+    .linea {
+	   width: 70px;
+    }
+
+    .ion-ios-star {
        font-size: 30px;
     }
 
@@ -379,6 +405,17 @@ nav ul li a {
     	display: block;
     }
 
+    .titulo-section {
+       font-size: 26px;
+    }
+
+    .linea2 {
+	   width: 70px;
+    }
+
+    .ion-ios-star.iconp {
+       font-size: 30px;
+    }
     .contenedor-img-mobile {
     	height: auto;
     	display: flex;
@@ -408,8 +445,13 @@ nav ul li a {
     .text-contenedor4-mobile {
     	display: block;
     }
+
+    .titulo-section2 {
+       font-size: 26px;
+    }
     
     .article-mobile {
+       margin-top: 15px;
        margin-bottom: 60px;
     }
 
