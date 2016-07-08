@@ -196,13 +196,11 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 20px;
 	width:75%;
 	   .container-img1 {
-	       display: flex;
 	       width: 100%;
-	       height: 300px;
+	       max-height: 300px;
 	         .image1 {
                flex-grow: 1;
                max-width: 100%;
-               height: auto;
             }
         }
         .titulo1-mobile {
@@ -283,16 +281,14 @@ h1, h2, h3, h4, h5, h6 {
 		        padding-right: 10px;
 			      .img-article {
                      flex-grow: 1;
-                     max-width: 100%;
-                     height: auto;		
+                     max-width: 100%;	
 	              }
 	           }
 	           .img2 {
 		           padding-left: 10px;
 			         .img-article {
                          flex-grow: 1;
-                         max-width: 100%;
-                         height: auto;		
+                         max-width: 100%;		
 	                 }
 	            }	
         }	        
@@ -301,7 +297,11 @@ h1, h2, h3, h4, h5, h6 {
 @media screen and (max-width: 799px) {
     .contenedor-productos {
 	   margin-top: 20px;
-	   width:100%;
+	   width: 100%;
+	   	   .container-img1 {
+	       width: 100%;
+	       max-height: 300px;
+	       }
 	       .titulo1 {
 	       	display: none;
 	       }
@@ -309,6 +309,7 @@ h1, h2, h3, h4, h5, h6 {
 	       	    text-align: center;
 	       	    display: flex;
 	       	    flex-direction: column;
+	       	    margin-top: 35px;
             	  h2 {
             		text-transform: uppercase;
             		margin-top: 20px;
@@ -374,15 +375,19 @@ h1, h2, h3, h4, h5, h6 {
 	        display: flex;
 	        flex-direction: column;
 	           .img1 {
-	           	 display: flex;
-	           	 max-width: 100%;
-	           	 padding-right: 0;
+	           	  padding-right: 0;
+			      .img-article {
+                     flex-grow: 1;
+                     max-width: 100%;	
+	              }
 	           }
 	           .img2 {
-	           	  display: flex;
-	           	  max-width: 100%;
                   padding-left: 0;
-                  margin-top: 20px; 
+                  margin-top: 20px;
+			      .img-article {
+                     flex-grow: 1;
+                     max-width: 100%;	
+	              }                   
 	           }	           
           }		
     } 
@@ -437,8 +442,7 @@ h1, h2, h3, h4, h5, h6 {
 		margin: 10px;
 			.img-article {
                flex-grow: 1;
-               max-width: 100%;
-               height: auto;		
+               max-width: 100%;		
 	        }
 	        h2 {
 		        color: black;
@@ -488,13 +492,11 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top: 20px;
 	width:100%;
 	   .container-img1 {
-	       display: flex;
 	       width: 100%;
 	       height: 300px;
 	         .image4 {
                flex-grow: 1;
                max-width: 100%;
-               height: auto;
             }       
         }
 }
@@ -570,7 +572,6 @@ h1, h2, h3, h4, h5, h6 {
 			.img-article {
                flex-grow: 1;
                max-width: 100%;
-               height: 150px;
                margin-bottom: 10px;		
 	        }	
      }
@@ -649,7 +650,6 @@ h1, h2, h3, h4, h5, h6 {
 	   flex-direction: column;
 	        .article4 {
 	        	margin: 10px 0;
-	        	display: flex;
 		        width: 100%;
 		    }     
 	}
@@ -742,22 +742,25 @@ h1, h2, h3, h4, h5, h6 {
 	        	color: #1f1f1f;
 	        }
 	        .container-union {
-	        	display: flex;
-	        	flex-direction: row;
+	        	display: inline-block;	 
 	        	  .img-pixel {
 	        		width: 50px;
 	        		height: 50px;
 	        		margin-right: 10px;
+	        	           		
 	        	  }
-	        	  .texto-union {
-	        		font-weight: bold;
-	        		margin-top: 3px;
-	        		margin-bottom: 8px;
-	        	  }
-	        	  a   {
-	        		text-decoration: none;
-	        	  }
-	        }
+	        	  article {
+	        	  	display: block;
+	        	       .texto-union {
+	        		      font-weight: bold;
+	        		      margin-bottom: 8px;
+	        	       }
+	        	       a   {
+	        		     text-decoration: none;
+	        		     margin-bottom: 8px;
+	        	       }
+	              }
+	        }      
 	        .parrafo {
 	        	text-decoration: none;
 	        	font-size: 14px;
@@ -885,25 +888,25 @@ h1, h2, h3, h4, h5, h6 {
 	}
 
     .container-union {
-	     display: flex;
-	     flex-direction: column;
+    	 display: block;	
 	     text-align: center;
 	        	  .img-pixel {
 	        		width: 50px;
 	        		height: 50px;
-	        		margin-right: 10px;
+	        		margin-right: 0;
+	        		margin-bottom: 10px;
 	        	  }
+
 	        	  article {
 	        	  	display: block;
+	        	  	margin-bottom: 25px;
+	        	  	   	.texto-union {
+	        		       font-weight: bold;
+	        		       margin-top: 3px;
+	        		       margin-bottom: 8px;
+	        	        }
 	        	  }
-	        	  .texto-union {
-	        		font-weight: bold;
-	        		margin-top: 3px;
-	        		margin-bottom: 8px;
-	        	  }
-	        	  a   {
-	        		text-decoration: none;
-	        	  }
+
 	        }
 
 	.copyright {
