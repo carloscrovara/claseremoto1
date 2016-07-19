@@ -44,7 +44,10 @@ h2, h3, h4, h5, h6 {
     	            font-size: 13px;
     	            background-color: #31aae2;
     	            border-radius: 100%;
-    	            padding: 5px 8px;            	
+    	            padding: 5px 8px;
+    	            position: relative;
+    	            bottom: 4px;    	            
+
 	              }
 	              .ion-search {             	
 	              	color: #31aae3;
@@ -52,7 +55,10 @@ h2, h3, h4, h5, h6 {
     	            font-size: 13px;
     	            background-color: #ffffff;
     	            border-radius: 100%;
-    	            padding: 5px 8px; 	              	
+    	            padding: 5px 8px;
+    	            position: relative;
+    	            bottom: 4px;
+    	            right: 22px;     	                	             	              	
 	              }
 	              a {
 	                 color: white;
@@ -610,7 +616,6 @@ h2, h3, h4, h5, h6 {
     }
     h6 {
     	display: inline-block;
-    	color: #aadff9;
     	font-size: 11px;
         color: #bbbaba;
         text-transform: uppercase;    	
@@ -1049,7 +1054,9 @@ div .container-popular {
     	            font-size: 13px;
     	            background-color: #31aae2;
     	            border-radius: 100%;
-    	            padding: 5px 8px;            	
+    	            padding: 5px 8px;
+    	            position: relative;
+    	            bottom: 4px;            	
 	              }
 	              .ion-search {             	
 	              	color: #31aae3;
@@ -1057,7 +1064,10 @@ div .container-popular {
     	            font-size: 13px;
     	            background-color: #ffffff;
     	            border-radius: 100%;
-    	            padding: 5px 8px; 	              	
+    	            padding: 5px 8px;
+    	            position: relative;
+    	            bottom: 4px;
+    	            right: 22px;      	             	              	
 	              }
 	              a {
 	                 color: white;
@@ -1395,8 +1405,302 @@ div .container-popular {
 	}
 	.ion-android-apps {
 		padding: 8px 10px;
+		position: relative;
+		bottom: 6px;
 	}
 }
 
+/*SECTIONS BLOG VARIOS*/
+.contenedor-blog {
+	background-color: #f9f9f9;
+	padding-bottom: 50px;
+	padding-top: 40px;	
+}
 
+.div-1seccion-blog {
+	max-width: 1000px;
+	margin: auto;
+	padding: 0 15px;	
+}
 
+.lista-blog1 {
+	li {
+		display: inline-block;
+	}
+    .columna1-blog {
+	   width: 70%;
+        h3 {
+	      font-size: 20px;
+	      font-weight: bold;
+	      margin-top: 5px;
+	      margin-bottom: 10px;
+	      padding-top: 10px;
+        }
+        img {
+    	  width: 100%;
+        }
+        p {
+		  font-size: 12px;
+		  line-height: 22px;
+		  color: #b6b5b5;
+		  margin-bottom: 20px;
+	    }
+	    .subcolumna1-blog {
+	    	width: 35%;
+	    }
+	    .subcolumna2-blog {
+	    	width: 62%;
+	    	margin-left: 10px;
+	    	  h6 {
+	    		color: #b6b5b5;
+	    		font-size: 11px;
+	    		margin-right: 10px;
+	    		margin-bottom: 15px;
+	    		text-transform: uppercase;
+	    	  }
+	    	  article {
+	    	  	background-color: white;
+	    	  	padding: 0 6px;
+	    	  }
+	    	  .subitem-columna2-blog {
+	    	  	li {
+	    	  		display: inline-block;
+	    	  	}
+	    	  	.subtitulo1-blog {
+	    	  		padding: 0;
+	    	  	}	
+	    	  }
+	    }	    	   
+    }		
+    .columna2-blog {
+	   margin-left: 15px;
+	   width: 20%;
+	   .linea-blog {
+	      border: 1px solid #f1f1f1;
+       }	
+	   h3 {
+	   	  font-size: 15px;
+	   	  font-weight: bold;
+	   	  margin-bottom: 35px;
+	   	  margin-top: 21px;
+	   }
+	   .posts-recents {
+	   	  .item-post1 {
+	   	  	width: 30%;
+	   	  	margin-right: 2px;
+	   	  	  img {
+	   	  	  	width: 100%;
+	   	  	  }
+	   	  }
+	   	  .item-post2 {
+	   	  	width: 66%;
+	          p {
+	   	        color: #cecece;	      	
+	   	        line-height: 20px;
+	   	        font-size: 12px;
+	   	        margin-bottom: 5px;	      	
+	          }
+	          .date {
+	   	        color: #7ac1e8;	      	
+	   	        line-height: 25px;
+	   	        font-size: 10px;
+	   	        margin-bottom: 2px;	      	
+	          }
+	   	  }	   	  
+
+	   }   	   
+	   .testimonials {
+	   	  background-color: white;
+	   	  padding-top: 10px;
+	   	  padding-bottom: 10px;
+	      p {
+	   	    color: #cecece;	      	
+	   	    line-height: 20px;
+	   	    font-size: 12px;
+	   	    margin-right: 10px;
+	   	    margin-left: 14px;
+	   	    margin-bottom: 5px;	      	
+	      }
+	      .titular-partner {
+	      	color: #31aae2;
+	      }	   	
+	   }
+	   .img-container-blog {
+	   	    width: 100%;
+	   	    margin: 10px 0;
+	   }
+	   .lista-iconos-redes {
+	   	    li {
+	   	      width: 32%;
+	   	      padding: 20px 0;
+	   	    }
+	   	    .icon-fb {
+	   	  	  text-align: center;
+              background-color: #3b59a1;
+	   	  	  font-size: 12px;
+	   	  	  color: white;
+	   	    }
+	   	    .icon-tw {
+	   	  	  text-align: center;
+              background-color: #46b0e4;
+	   	  	  font-size: 12px;
+	   	  	  color: white;
+	   	    }	
+	   	    .icon-google {
+	   	      margin-left: 3px;	
+	   	  	  text-align: center;
+              background-color: #dd4c39;
+	   	  	  font-size: 12px;
+	   	  	  color: white;
+	   	    }
+	   	    span {
+	   	    	font-size: 15px;
+	   	    	border-radius: 100%;
+	   	    }
+	   	    p {
+	   	    	margin-top: 15px;
+	   	    }
+	   	    .ion-social-facebook {
+	   	    	background-color: #4f6aab;
+	   	    	padding: 4px 12px;
+	   	    }
+	   	    .ion-social-twitter {
+	   	    	background-color: #59b8e7;
+	   	    	padding: 4px 10px;
+	   	    }
+	   	    .ion-social-google {
+	   	    	background-color: #e05e4d;
+	   	    	padding: 4px 10px;
+	   	    } 	   	     		   	       	    
+	   }	   
+	   .tw-feed {
+	   	  .item-tw1 {
+	   	  	width: 15%;
+	   	  }
+	   	  .item-tw2 {
+	   	  	width: 78%;
+	   	  }	   	  
+	      a {
+	   	    color: #31aae2;
+	   	    text-decoration: none;
+	   	    font-size: 11px;
+	      }
+	      p {
+	   	    color: #cecece;	      	
+	   	    line-height: 20px;
+	   	    font-size: 11px;	      	
+	      }
+	      .minutos {
+	   	    color: #cecece;	      	
+	   	    line-height: 20px;
+	   	    font-size: 10px;	      	
+	      }
+	      .ion-social-twitter {
+	      	color: #cecece;
+	      	font-size: 18px;
+	      	position: relative;
+	      	bottom: 37px;
+	      }   	
+	   }
+	   .lista-tags {
+	   	  li {
+	   	  	 margin: 10px 0;
+	   	  	   	a {
+	   	  	      background-color: #dadada;
+	   	  	      font-size: 11px;
+	   	  	      color: white;
+	   	  	      padding: 4px 10px;
+	   	  	      text-decoration: none;
+	   	        }
+	   	        a:hover {
+	   	  	      background-color: #31aae2;
+	   	        }
+	   	   }
+	   }
+	   .lista-archives-blog {
+	      a {
+	   	    color: #cecece;
+	   	    text-decoration: none;
+	   	    line-height: 35px;
+	   	    font-size: 13px;
+	      }
+	      a:hover {
+	   	    color: #7ac1e8;
+	      }
+	      .ion-ios-arrow-forward {
+            border-radius: 100%;
+            border: 1px solid #cecece;
+            padding: 1px 8px;
+            color: #cecece;
+            margin-right: 15px;
+            background-color: white;
+	   	    font-size: 12px;          
+	     }
+	     .ion-ios-arrow-forward:hover {
+	   	   background-color: #31aae2;
+	   	   color: white;
+           border: 0 solid;	   	   
+	     }
+	   } 
+    }	
+}
+
+.recuadro-blog {
+	margin-top: 20px;
+	li {
+		width: 99%;
+		margin-bottom: 20px;
+		  article {
+		  	background-color: white;
+		  	padding: 30px 20px 40px 25px;
+		  }
+	}
+	.cita {
+		font-size: 15px;
+		color: #969595;
+		line-height: 25px;
+		margin-bottom: 20px;
+		text-align: left;
+		  .ion-quote {
+		  	font-size: 30px;
+		  	color: #f1f1f1;
+		  	margin-right: 8px;
+		  }		
+	}	
+	.partefinal-cita {
+		font-size: 12px;
+		font-weight: bold;
+		color: #5bb7e6;
+		  .ion-minus {
+		  	color: #5bb7e6;
+		  	font-size: 12px;
+		  	margin-right: 5px;
+		  }
+	}
+
+}
+
+.recuadro2-blog {
+	margin-top: 20px;
+	text-align: center;
+	li {
+		width: 69%;
+		margin-bottom: 20px;
+		  article {
+		  	padding-top: 20px;
+		  	padding-bottom: 20px;
+		  }
+	}
+	a {
+		color: #dadada;
+		text-decoration: none;
+		border: 2px solid #f1f1f1;
+		padding: 5px 10px;
+		font-size: 13px;
+		margin: 0 3px;	
+	}
+	a:hover {
+		color: white;
+		background-color: #31aae2;	
+	}
+}	
