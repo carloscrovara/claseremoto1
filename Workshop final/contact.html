@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Services</title>
+	<title>Contact</title>
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -43,11 +43,73 @@
 
       <header class="header-secciones">
       	      <div class="contenedor">
-      	      	    <h1>Services</h1>
-      	      	    <h2>How we can help</h2>
+      	      	    <h1>Contact</h1>
+      	      	    <h2>Get in touch with us</h2>
       	      </div>
       </header>      	
 
+<!--1 sección-->
+<section class="contenedor">
+   <div class="div-1seccion-contact">
+    <ul class="lista-contact">
+      <li class="columna1-contact">
+        <h3>Drop Us a Line</h3>
+         <form action="enviador.php" method="post">
+          <input class="campo-text1" type="text" name="Name" placeholder="First name"><span class="ion-android-person"></span>
+          <br>
+          <input class="campo-text1" type="email" name="email" placeholder="Email address"><span class="ion-ios-email-outline"></span>
+          <br>
+          <input class="campo-text1" type="tel" name="phone" placeholder="Phone number"><span class="ion-ios-telephone"></span>
+          <br>
+          <textarea class="campo-text2" type="text"
+          name="comments" placeholder="Write a message"></textarea><span class="ion-chatbubbles"></span>
+          <br>
+          <input class="boton-campo" type="submit" value="Send message"/>
+         </form>        
+      </li>
+      <li class="columna2-contact">
+        <article>
+          <h3>Get our directions</h3>
+          <img src="imagenes/container-contact.jpg">  
+        </article>
+      </li>
+    </ul>
+</section>
+
+<!--2 sección-->
+<section class="section2-contact">
+  <div class="contenedor">
+    <ul class="lista2-contact">
+      <li>
+        <article>
+          <span class="ion-ios-location"></span>
+          <h5>Address</h5>
+          <p>Hoffman Parkway, P.O Box</p>
+          <p>353 Mountain View. United States of</p>
+          <p>America.</p>
+        </article>
+      </li>
+      <li>
+        <article>
+          <span class="ion-ios-telephone"></span>
+          <h5>Phone</h5>
+          <p>Local: 1-800-123-hello</p>
+          <p>Mobile: 1-800-123-hello</p>
+          <br>
+        </article>        
+      </li>
+      <li>
+        <article>
+          <span class="ion-ios-email"></span>
+          <h5>Email Address</h5>
+          <a href="mailto:info@huge.com">info@huge.com</a>
+          <a href="http://www.huge.com">www.HUGE.com</a>
+          <br>
+        </article>        
+      </li>
+    </ul>
+  </div>
+</section>
 
 <!--Footer-->
 <footer>
@@ -294,4 +356,4 @@
 </footer>
 
 </body>
-</html> 
+</html>
