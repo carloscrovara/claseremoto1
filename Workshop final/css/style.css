@@ -1045,6 +1045,22 @@ div .container-popular {
         color: white;
         font-size: 13px; }
 
+@media screen and (max-width: 714px) {
+  .lista-section1-about {
+    text-align: center; }
+    .lista-section1-about li {
+      width: 100%; }
+      .lista-section1-about li p {
+        margin-bottom: 15px; } }
+@media screen and (max-width: 785px) {
+  .div-2seccion-about {
+    text-align: center;
+    flex-direction: column; }
+    .div-2seccion-about img {
+      max-width: 100%; }
+    .div-2seccion-about .boton1-about {
+      width: 50%;
+      margin: 0 auto; } }
 /*SECTION 4-5 ABOUT*/
 .section4-about {
   background-color: #000000; }
@@ -1145,6 +1161,14 @@ div .container-popular {
     .lista-section5b-about li img {
       width: 100%; }
 
+@media screen and (max-width: 923px) {
+  .lista-section5b-about li {
+    width: 48%;
+    margin-bottom: 20px; } }
+@media screen and (max-width: 655px) {
+  .lista-section5b-about li {
+    width: 100%;
+    margin-bottom: 20px; } }
 /*SECTION 6-7 ABOUT*/
 .lista-section6-about {
   margin-top: 60px;
@@ -1210,6 +1234,18 @@ div .container-popular {
     color: white;
     background-color: #e21b1b; }
 
+@media screen and (max-width: 985px) {
+  .lista-section6-about li {
+    width: 100%;
+    margin-bottom: 15px; } }
+@media screen and (max-width: 1025px) {
+  .lista-section7-about {
+    text-align: center; }
+    .lista-section7-about li {
+      width: 50%; }
+    .lista-section7-about span {
+      float: left;
+      padding-left: 10px; } }
 /*SECTION 8-9 ABOUT*/
 .lista-section8-about {
   margin-top: 65px;
@@ -1247,6 +1283,12 @@ div .container-popular {
     padding: 6px 18px;
     text-transform: uppercase; }
 
+@media screen and (max-width: 700px) {
+  .lista-section8-about li {
+    width: 45%; } }
+@media screen and (max-width: 400px) {
+  .lista-section8-about li {
+    width: 100%; } }
 /*SECTION 1-2 SERVICES*/
 .contenedor-section1-services {
   max-width: 1000px;
